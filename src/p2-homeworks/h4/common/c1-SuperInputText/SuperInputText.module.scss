@@ -1,0 +1,28 @@
+.input_wrapper {
+    display: flex;
+}
+
+.superInput {
+    padding: 5px 10px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: dimgray 1px solid;
+    &:focus{
+        outline: none;
+    }
+}
+
+.errorInput {
+    border: 1px solid crimson;
+}
+
+.error_wrapper {
+    width: 30px;
+    margin: 2px 20px;
+}
+
+.error {
+    color: crimson;
+}
+

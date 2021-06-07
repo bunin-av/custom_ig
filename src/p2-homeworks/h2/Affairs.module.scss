@@ -1,0 +1,47 @@
+.button {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background: none;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 60px;
+    height: 30px;
+
+    &:hover {
+        border: 2px solid darkslateblue;
+        box-sizing: border-box;
+        height: 28px;
+    }
+}
+
+.active {
+    background: darkslateblue
+}
+
+.item_wrapper {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.item {
+    width: 150px
+}
+
+.affairs_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.high {
+    color: crimson;
+}
+
+.middle {
+    color: chocolate;
+}
+
+.low {
+    color: forestgreen;
+}
+
+

@@ -1,0 +1,59 @@
+.MessageComponent_wrapper {
+    display: flex;
+    align-items: flex-end;
+
+    .angel {
+        width:15px;
+        height:15px;
+        background: radial-gradient(circle at 0 0, rgba(0,0,0,0)15px, rgba(255, 255, 255, 0.3) 0);
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+
+        img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            max-width: 100%;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+    }
+
+    .message_wrapper {
+        display: flex;
+        flex-flow: wrap column;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 5px 5px 5px 0;
+        width: 300px;
+        font-size: 1.2rem;
+        padding: 5px 10px 15px 10px;
+        position: relative;
+
+        .userName {
+            color: cornflowerblue;
+        }
+
+        .messageText {
+            color: white;
+
+        }
+
+        .messageTime {
+            align-self: flex-end;
+            color: dimgray;
+            line-height: 1px;
+        }
+    }
+
+}
+
+
+
+
+
+
+

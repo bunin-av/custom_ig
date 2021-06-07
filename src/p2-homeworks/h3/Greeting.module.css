@@ -1,0 +1,11 @@
+.someClass {
+    border: 1px solid green;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.wrapper> * {
+ margin: 0 10px;
+}
