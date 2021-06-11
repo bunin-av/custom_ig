@@ -1,0 +1,12 @@
+.span{
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    min-width: 100px;
+    background: url("./pen.png") no-repeat left/15px;
+    margin-left: 10px;
+    display: block;
+}
+
+.span:hover{
+    box-shadow: black;
+}

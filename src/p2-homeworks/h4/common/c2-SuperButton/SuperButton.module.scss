@@ -5,6 +5,8 @@
     border-radius: 5px;
     border: none;
     background: cornflowerblue;
+    color: white;
+    transition: 0.3s;
     &:hover {
         background: dodgerblue;
     }

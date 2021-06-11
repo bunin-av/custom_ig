@@ -16,9 +16,9 @@ function Header() {
 
     return (
         <div className={classSetter} onMouseLeave={() => setActive(false)}>
-            <NavLink to={PATH.PRE_JUNIOR} className={styles.menu__elem}>Pre Junior</NavLink>
-            <NavLink to={PATH.JUNIOR} className={styles.menu__elem}>Junior</NavLink>
-            <NavLink to={PATH.JUNIOR_PLUS} className={styles.menu__elem}>Junior+</NavLink>
+            <NavLink to={PATH.PRE_JUNIOR} className={styles.menu__elem} activeClassName={styles.activeLink}>Pre Junior</NavLink>
+            <NavLink to={PATH.JUNIOR} className={styles.menu__elem} activeClassName={styles.activeLink}>Junior</NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS} className={styles.menu__elem} activeClassName={styles.activeLink}>Junior+</NavLink>
             <button className={styles.button} onMouseOver={() => setActive(true)}/>
         </div>
     )
